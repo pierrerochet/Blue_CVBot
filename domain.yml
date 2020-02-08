@@ -9,7 +9,7 @@ intents:
   - presentation
   - professional_experience
   - school_career
-  - get_linkdin
+  - get_linkedin
   - get_github
 
 actions:
@@ -23,7 +23,7 @@ actions:
 - utter_help
 - utter_affirm
 - utter_github
-- utter_linkdin
+- utter_linkedin
 
 
 
@@ -82,7 +82,7 @@ responses:
     https://github.com/pierrerochet"
 
   utter_linkedin:
-    - text: "Voici le lien github : 
+    - text: "Voici le lien linkedin : 
     https://www.linkedin.com/in/pierre-rochet"
 
 

@@ -36,6 +36,6 @@
 * get_github
   - utter_github
 
-## linkdin
-* get_linkdin
-  - utter_linkdin
+## linkedin
+* get_linkedin
+  - utter_linkedin

@@ -3,6 +3,7 @@
 - bonjour
 - hello
 - hi
+- coucou
 
 ## intent:goodbye
 - au revoir
@@ -73,7 +74,6 @@
 - parcours scolaire
 
 ## intent:get_github
-- github
 - quel est son compte github?
 - quel est son lien github?
 - donne-moi son github
@@ -82,12 +82,11 @@
 - je cherche le lien github
 - je ne trouve pas le lien github
 
-## intent:get_linkdin
-- linkdin
-- quel est son compte linkdin?
-- quel est son lien linkdin?
-- donne-moi son linkdin
-- donne-moi son lien linkdin
-- où est le lien linkdin?
-- je cherche le lien linkdin
-- je ne trouve pas le lien linkdin
+## intent:get_linkedin
+- quel est son compte linkedin?
+- quel est son lien linkedin?
+- donne-moi son linkedin
+- donne-moi son lien linkedin
+- où est le lien linkedin?
+- je cherche le lien linkedin
+- je ne trouve pas le lien linkedin

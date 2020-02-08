@@ -1,0 +1,91 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - presentation
+  - professional_experience
+  - school_career
+  - get_linkdin
+  - get_github
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_iamabot
+- utter_presentation
+- utter_choice_question_profil
+- utter_professional_experience
+- utter_school_career
+- utter_help
+- utter_affirm
+- utter_github
+- utter_linkdin
+
+
+
+responses:
+  utter_greet:
+  - text: "Salut, comment ça va?"
+  - text: "Bonjour, est-ce que tout se passe bien?"
+
+  utter_affirm:
+  - text: "Super"
+  - text: "Très bien"
+
+  utter_help:
+  - text: "Est-ce que je peux t'aider?"
+  - text: "Je peux peut-être t'aider?"
+  - text: "Dis-moi comment je pourrais t'aider?"
+
+  utter_goodbye:
+  - text: "A bientôt j'espère"
+  - text: "A la prochaine"
+  - text: "Reviens quand tu veux"
+
+  utter_iamabot:
+  - text: "Je suis un bot"
+  - text: "Je suis un bot. Mes connaissances sont très limitées
+  mais je peux peut-être quand même t'aider"
+
+  utter_presentation:
+  - text: "Pierre Rochet est mon créateur, 
+    c'est un spécialiste du Traitement automatique des langues."
+
+  utter_choice_question_profil:
+    - text: "Que veux-tu savoir sur lui?"
+    - text: "Qu'est-ce qui t'intereses?"
+      buttons:
+      - title: "parcours scolaire"
+        payload: "parcours scolaire"
+      - title: "expériences professionnelles"
+        payload: "expériences professonnelles"
+
+  utter_professional_experience:
+  - text: "Il est actuellement en stage de fin d'étude chez Orange Bank"
+
+  utter_school_career:
+  - text: "
+  Après un bac scientifique Pierre Rochet a commencé des études de philosophie.
+  Il a ensuite rejoint une licence en sciences de l'infomation et de la communication
+  où il a découvert la programmation, ce qui l'a immédiatement passionné.
+  L'année suivante il intègre un master traitement automatique des langues (NLP) où
+  il s'épanouie complètement.
+  Actuellement il termine sa dernière année et souhaite se spécialiser 
+  dans les agents conversationnels"
+
+  utter_github:
+    - text: "Voici le lien github :
+    https://github.com/pierrerochet"
+
+  utter_linkedin:
+    - text: "Voici le lien github : 
+    https://www.linkedin.com/in/pierre-rochet"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
